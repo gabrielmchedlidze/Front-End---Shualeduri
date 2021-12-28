@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	height: 1345px;
+	width: 1920px;
+	background-color: #C6D5FF;
+	position: absolute;
+}
+
+.header {
+	width: 1820px;
+	height: 98px;
+	box-shadow: 0px 3px 6px;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 36px;
+}
+
+.header nav {
+	float: right;
+	background-color: #EBEBEB;
+	margin-right: 10px;
+	margin-top: 7px;
+	padding-bottom: 24px;
+	padding-top: -10px;
+	padding-left: 36px;
+	border-radius: 20px;
+}
+
+.header nav ul li {
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+.header nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 100px;
+	margin-top: 38px;
+}
+
+.header nav .home {
+	color: #A00000;
+	text-decoration: underline;
+}
+
+.header img {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 30px;
+}
+
+.footer {
+	background-color: #707070;
+	width: 1920px;
+	height: 117px;
+	margin-top: 152px;
+}
+
+.logo {
+	width: 136.5px;
+	height: 50px;
+	float: right;
+	margin-top: 33.5px;
+	margin-right: 50px;
+}
+
+.contactspace {
+	width: 1820px;
+	height: 866px;
+	margin-left: 50px;
+	margin-top: 40px;
+	display: flex;
+}
+
+.contactus {
+	width: 449px;
+	height: 204px;
+	background-color: #EBEBEB;
+	border-radius: 10px;
+	text-align: left; 
+	display:flex; 
+	flex-direction: column; 
+	align-items: center;
+}
+
+.contactinfo {
+	margin-top: 22px;
+	font-size: 20px;
+	font-family: 'Roboto';
+}
+
+.contactinfo .maincontact {
+	font-weight: bold;
+}
+
+.contactspace iframe {
+	width: 1354px;
+	height: 866px;
+	margin-left: 17px;
+}
