@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	height: 3037px;
+	width: 1920px;
+	background-color: #C6D5FF;
+	position: absolute;
+}
+
+.header {
+	width: 1820px;
+	height: 98px;
+	box-shadow: 0px 3px 6px;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 36px;
+}
+
+.header nav {
+	float: right;
+	background-color: #EBEBEB;
+	margin-right: 10px;
+	margin-top: 7px;
+	padding-bottom: 24px;
+	padding-top: -10px;
+	padding-left: 36px;
+	border-radius: 20px;
+}
+
+.header nav ul li {
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+.header nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 100px;
+	margin-top: 38px;
+}
+
+.header nav .home {
+	color: #A00000;
+	text-decoration: underline;
+}
+
+.header img {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 30px;
+}
+
+.photo1 {
+	margin-left: 50px;
+	max-height: 449.45px;
+	max-width: 1820px;
+	margin-top: 100px;
+}
+
+.news {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Georgia';
+	margin-left: 50px;
+	margin-top: 94.3px;
+}
+
+.article1 {
+	width: 870px;
+	height: 773.52px;
+}
+
+.article2 {
+	width: 870px;
+	height: 773.52px;
+}
+
+.article1 h2 {
+	font-family: 'Roboto';
+	font-size: 25px;
+	margin-top: 34px;
+}
+
+.article2 h2 {
+	font-family: 'Roboto';
+	font-size: 25px;
+	margin-top: 34px;
+}
+
+.article1 .maintext {
+	font-family: 'Georgia';
+	font-size: 15px;
+	color: #7C7C91;
+	margin-top: 62.2px;
+}
+
+.article2 .maintext {
+	font-family: 'Georgia';
+	font-size: 15px;
+	color: #7C7C91;
+	margin-top: 62.2px;
+}
+
+.article1 .reedmore {
+	color: #FF4141;
+	clear: both;
+	float: right;
+	text-transform: uppercase;
+	margin-top: 37.5px;
+}
+
+.article2 .reedmore {
+	color: #FF4141;
+	clear: both;
+	float: right;
+	text-transform: uppercase;
+	margin-top: 37.5px;
+}
+
+.botharticles {
+	display: grid;
+	grid-template-columns: 0fr 0fr;
+	grid-column-gap: 80px;
+	grid-row-gap: 45px;
+	margin-left: 50.5px;
+	margin-top: 60px;
+}
+
+.article3 {
+	margin-left: 50.5px;
+	margin-top: 117.5px;
+	height: 997.97px;
+	width: 1807.13px;
+}
+
+.article3 h2{
+	font-family: 'Roboto';
+	font-size: 25px;
+}
+
+.article3 .article3photo {
+	float: left;
+	clear: both;
+	margin-right: 14.4px;
+	margin-bottom: 28px;
+}
+
+.article3 .maintext {
+	font-family: 'Georgia';
+	font-size: 15px;
+	color: #7C7C91;
+	margin-top: 74px;
+}
+
+.footer {
+	background-color: #707070;
+	width: 1920px;
+	height: 117px;
+	margin-top: 152px;
+}
+
+.logo {
+	width: 136.5px;
+	height: 50px;
+	float: right;
+	margin-top: 33.5px;
+	margin-right: 50px;
+}
